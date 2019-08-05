@@ -1,5 +1,9 @@
 package Decorator;
 
+import Decorator.implement.Human;
+import Decorator.implement.Jeans;
+import Decorator.implement.Orc;
+import Decorator.implement.Tshirts;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

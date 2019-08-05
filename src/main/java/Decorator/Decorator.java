@@ -1,5 +1,7 @@
 package Decorator;
 
+import Decorator.implement.Character;
+
 /**
  * @author: yyWang
  * @create: 2019/7/30

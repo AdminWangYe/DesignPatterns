@@ -1,4 +1,6 @@
-package Decorator;
+package Decorator.implement;
+
+import Decorator.Decorator;
 
 /**
  * @author: yyWang
