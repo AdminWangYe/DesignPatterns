@@ -12,8 +12,8 @@ public class OperationFactory {
 
     /**
      * 根据传入的操作符，创建对应的对象
-     * @param operation
-     * @return
+     * @param operation 操作符，进行加减运算
+     * @return 返回对应的操作对象
      */
     public static Operation createOperate(String operation) {
 
