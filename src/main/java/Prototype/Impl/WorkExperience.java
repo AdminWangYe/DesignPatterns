@@ -6,7 +6,7 @@ package Prototype.Impl;
  * @description: 工作经历
  */
 
-public class WorkExperience implements Cloneable{
+public class WorkExperience implements Cloneable {
     // 工作时间
     private String workDate;
     // 工作公司
@@ -32,5 +32,10 @@ public class WorkExperience implements Cloneable{
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "工作经历：" + this.workDate + "\t" + this.workCompany;
     }
 }
