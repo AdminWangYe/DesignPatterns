@@ -53,9 +53,9 @@ public class DeepResume implements Cloneable {
         return workExperience;
     }
 
-    public void setWorkExperience(String workDate, String compangy) {
+    public void setWorkExperience(String workDate, String company) {
         workExperience.setWorkDate(workDate);
-        workExperience.setWorkCompany(compangy);
+        workExperience.setWorkCompany(company);
     }
 
     /**
