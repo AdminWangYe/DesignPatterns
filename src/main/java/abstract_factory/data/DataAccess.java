@@ -12,6 +12,8 @@ import abstract_factory.impl.IUser;
  * @author: yyWang
  * @create: 2019/9/25
  * @description: 使用反射机制，运行时创建实例对象
+ * 所有在用简单工厂的地方，都可以考虑用反射技术来去除 switch或if,解除分支判断带来的耦合。
+ * 反射技术的确可以很好的解决它们难以应对变化，难以维护和拓展的诟病
  */
 
 public class DataAccess {
@@ -25,7 +27,7 @@ public class DataAccess {
 
             //  从配置文件中获取要反射的类名
             Properties properties = new Properties();
-            FileReader fr = new FileReader("src/main/resources/reflectionConfig.properties");
+            FileReader fr = new FileReader("src/main/resources/abstract_factory/reflectionConfig.properties");
             // 加载配置文件
             properties.load(fr);
 
