@@ -12,12 +12,12 @@ import abstract_factory.impl.IUser;
 public class SqlServerUser implements IUser {
     @Override
     public void insert(User user) {
-        System.out.println("在SQL server 中给user 表添加一条记录:" + user.getName() + "," + user.getId());
+        System.out.printf("在SQL server 中给user 表添加一条记录:%s,%s%n", user.getName(), user.getId());
     }
 
     @Override
     public User getUser(String id) {
-        System.out.println("在SQL server 中根据" + id + "得到User 表一条记录");
+        System.out.printf("在SQL server 中根据%s得到User 表一条记录%n", id);
         return null;
     }
 }
