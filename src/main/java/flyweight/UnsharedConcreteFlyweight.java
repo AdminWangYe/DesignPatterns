@@ -11,4 +11,9 @@ public class UnsharedConcreteFlyweight extends Flyweight {
     public void operation(int extricate) {
         System.out.println("不共享的具体 Flyweight:" + extricate);
     }
+
+    @Override
+    public void use() {
+        System.out.println("不共享的具体 Flyweight");
+    }
 }
