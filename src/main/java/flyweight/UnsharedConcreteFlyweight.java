@@ -13,7 +13,9 @@ public class UnsharedConcreteFlyweight extends Flyweight {
     }
 
     @Override
-    public void use() {
-        System.out.println("不共享的具体 Flyweight");
+    public void use(User user) {
+        System.out.println("网站分类" + "用户：" + user.getName());
     }
+
+
 }

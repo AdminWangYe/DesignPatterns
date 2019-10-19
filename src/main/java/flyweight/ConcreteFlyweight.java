@@ -23,7 +23,9 @@ public class ConcreteFlyweight extends Flyweight {
     }
 
     @Override
-    public void use() {
-        System.out.println("网站分类：" + name);
+    public void use(User user) {
+        System.out.println("网站分类" + name + "用户：" + user.getName());
     }
+
+
 }
